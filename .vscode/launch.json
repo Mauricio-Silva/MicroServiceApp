@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DsdMsWorkerAppApplication<dsd_ms_worker_app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.edu.ifms.dsd_ms_worker_app.DsdMsWorkerAppApplication",
+            "projectName": "dsd_ms_worker_app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
