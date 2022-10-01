@@ -25,7 +25,7 @@ public class WorkerController {
     }
 
     @GetMapping(value = "/{id}/salary")
-    public ResponseEntity<Float> getWorkerSalary(@PathVariable("id") int id) {
+    public ResponseEntity<Double> getWorkerSalary(@PathVariable("id") int id) {
         Worker worker = this.workerService.getWorkerById(id);
         return ResponseEntity.ok(worker.getSalary());
     }

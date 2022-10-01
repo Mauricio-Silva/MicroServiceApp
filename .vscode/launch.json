@@ -9,6 +9,16 @@
             "projectName": "dsd_ms_worker_app",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DsdMsPayrollAppApplication<dsd_ms_payroll_app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.edu.ifms.dsd_ms_payroll_app.DsdMsPayrollAppApplication",
+            "projectName": "dsd_ms_payroll_app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
